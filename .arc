@@ -6,6 +6,7 @@ ship-z1w
 @http
 get /
 post /woops
+get /funk
 
 @tables
 data
