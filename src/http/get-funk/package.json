@@ -1,0 +1,7 @@
+{
+  "name": "begin-app-get-funk",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin/data": "latest"
+  }
+}
