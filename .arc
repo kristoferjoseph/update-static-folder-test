@@ -2,7 +2,7 @@
 ship-z1w
 
 @static
-folder foo
+folder public
 
 @http
 get /
