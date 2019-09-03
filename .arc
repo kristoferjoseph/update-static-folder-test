@@ -2,6 +2,7 @@
 ship-z1w
 
 @static
+folder dist
 
 @http
 get /
