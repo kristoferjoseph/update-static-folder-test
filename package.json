@@ -5,10 +5,10 @@
   "scripts": {
     "lint": "eslint src --ignore-pattern node_modules --fix",
     "test": "NODE_ENV=testing tape test/*-test.js | tap-spec",
-    "start": "NODE_ENV=testing ARC_LOCAL=1 npx sandbox"
+    "start": "PORT=4444 NODE_ENV=testing ARC_LOCAL=1 npx sandbox"
   },
   "dependencies": {
-    "@architect/architect": "^5.9.13",
+    "@architect/architect": "@LTS",
     "@begin/data": "latest",
     "tiny-json-http": "^7.1.2"
   },
