@@ -6,7 +6,6 @@ folder public
 
 @http
 get /
-post /woops
 get /funk
 
 @tables
